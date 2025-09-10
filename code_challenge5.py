@@ -77,7 +77,7 @@ if genre == 'comedy':
 			print("This are some of the manga recommendation we have for you: \n1. OnePiece \n2. DragonBall \n3. Bleach \n4. Pokemon")
 
 else:
-	print("Sorry, there is no", dura, genre, "manga from the", year, "in our list")
+	print("Sorry, there is no", dura, genre, "manga from the", str(year) + "s in our list")
 
 
 
