@@ -12,6 +12,7 @@ for mae in range(1, 11, 1):
     ma = eval(input(f"{mae} - Enter a number --> "))
 
     if mae % 2 == 1:
-        mi += maess
+        mi += mae
+
 
 print(f"The total of odd number is: {mi}")
