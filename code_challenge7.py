@@ -3,14 +3,15 @@
 
 result = 0
 
-for arf in range(1, 11):
-    bers = eval(input("Enter a number --> "))
+for me in range(1, 11):
+    odd_num = eval(input("Enter a number --> "))
 
-    if bers % 2 == 0:
-        print(bers, "even")
+    if odd_num % 2 == 0:
+        print(odd_num, "even")
     else:
-        print(bers, "is odd")
-        result += bers
+        print(odd_num, "is odd")
+        result += odd_num
         
 print("The summation of all odd numbers is:", result)      
+
 
