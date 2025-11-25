@@ -6,13 +6,14 @@ n3 = 'Faderagao'
 
 print(f"Hello {n1} {n2} {n3}, to the World")
 
-mi = 0
+me = 0
 
-for mae in range(1, 11, 1):
-    ma = eval(input(f"{mae} - Enter a number --> "))
+for you in range(1, 11, 1):
+    ma = eval(input(f"{you} - Enter a number --> "))
 
-    if mae % 2 == 1:
-        mi += mae
+    if you % 2 == 1:
+        me += you
 
 
-print(f"The total of odd number is: {mi}")
+print(f"The total of odd number is: {me}")
+
