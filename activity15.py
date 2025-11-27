@@ -11,9 +11,10 @@ me = 0
 for you in range(1, 11, 1):
     ma = eval(input(f"{you} - Enter a number --> "))
 
-    if you % 2 == 1:
-        me += you
+    if ma % 2 == 1:
+        me += ma
 
 
 print(f"The total of odd number is: {me}")
+
 
